@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DoctorData Name="Иван" Profession="Хирург">
+    <AppointmentData numOfVisitors="2" shift="3" date="2019-10-26+03:00"/>
+    <AppointmentData numOfVisitors="3" shift="1" date="2019-08-05+03:00"/>
+    <AppointmentData numOfVisitors="5" shift="4" date="2018-09-15+03:00"/>
+    <AppointmentData numOfVisitors="6" shift="2" date="2019-11-23+02:00"/>
+    <AppointmentData numOfVisitors="100" shift="5" date="2019-11-23+02:00"/>
+    <AppointmentData numOfVisitors="1000" shift="10" date="2019-11-30+02:00"/>
+</DoctorData>

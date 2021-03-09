@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GroupData Name="KN201.8v">
+    <ListData>
+        <StudentData Name="Ivan" Surname="Lychkovakha" Course="2" >
+            <assessment As ="5" />
+        </StudentData>
+        <StudentData Name="Петя" Surname="Пупкин" Course="2" >
+            <assessment As="4" />
+        </StudentData>
+        <StudentData Name="Арсен" Surname="Шаталов" Course="2" >
+            <assessment As="3" />
+        </StudentData>
+        <StudentData Name="ГАрри" Surname="Поттер" Course="2" >
+            <assessment As="5" />
+        </StudentData>
+    </ListData>
+</GroupData>    

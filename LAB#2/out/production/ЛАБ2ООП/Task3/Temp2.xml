@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.3" class="java.beans.XMLDecoder">
+ <object class="Task3.AcademicGroup">
+  <void property="arr">
+   <array class="Task3.Student" length="3">
+    <void index="0">
+     <object class="Task3.Student">
+      <void property="name">
+       <string>Ivan</string>
+      </void>
+      <void property="speciality">
+       <string>java</string>
+      </void>
+      <void property="surname">
+       <string>lychkovaxa</string>
+      </void>
+     </object>
+    </void>
+    <void index="1">
+     <object class="Task3.Student">
+      <void property="name">
+       <string>Danil</string>
+      </void>
+      <void property="speciality">
+       <string>.net</string>
+      </void>
+      <void property="surname">
+       <string>Rozdis</string>
+      </void>
+     </object>
+    </void>
+    <void index="2">
+     <object class="Task3.Student">
+      <void property="name">
+       <string>Vasya</string>
+      </void>
+      <void property="speciality">
+       <string>python</string>
+      </void>
+      <void property="surname">
+       <string>Pupkin</string>
+      </void>
+     </object>
+    </void>
+   </array>
+  </void>
+  <void property="group">
+   <string>KN</string>
+  </void>
+ </object>
+</java>
