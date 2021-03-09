@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="301.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Task1.GraphicController">
+    <left>
+        <AnchorPane prefHeight="385.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="20.0" layoutY="24.0" text="a" />
+                <Label layoutX="111.0" layoutY="24.0" text="b" />
+                <TextField fx:id="TextFieldA" layoutX="34.0" layoutY="20.0" prefHeight="25.0" prefWidth="57.0" />
+                <TextField fx:id="TextFieldB" layoutX="132.0" layoutY="20.0" prefHeight="25.0" prefWidth="57.0" />
+                <Label layoutX="13.0" layoutY="65.0" text="f(x)" />
+                <Label layoutX="13.0" layoutY="100.0" text="g(x)" />
+                <TextField fx:id="TextFieldFx" layoutX="41.0" layoutY="61.0" prefHeight="25.0" prefWidth="146.0" />
+                <TextField fx:id="TextFieldGx" layoutX="41.0" layoutY="96.0" prefHeight="25.0" prefWidth="146.0" />
+                <Button layoutX="62.0" layoutY="155.0" mnemonicParsing="false" onAction="#doBuild" text="Build graphic" />
+                <Button layoutX="62.0" layoutY="201.0" mnemonicParsing="false" onAction="#doClear" prefHeight="25.0" prefWidth="86.0" text="Clear" />
+            </children></AnchorPane>
+    </left>
+    <center>
+        <LineChart fx:id="chart" prefHeight="451.0" prefWidth="451.0" BorderPane.alignment="CENTER">
+            <xAxis>
+                <NumberAxis fx:id="x" prefHeight="13.0" prefWidth="395.0" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="y" prefHeight="357.0" prefWidth="28.0" side="LEFT" />
+            </yAxis>
+        </LineChart>
+    </center>
+</BorderPane>
